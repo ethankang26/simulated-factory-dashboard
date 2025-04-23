@@ -1,0 +1,20 @@
+{
+    "devices": {
+      "sensor1": { "type": "sensor", "state": "off" },
+      "motor1": { "type": "motor", "state": "off" }
+    },
+    "rules": [
+      {
+        "if": { "sensor1": "on" },
+        "then": { "motor1": "on" },
+        "delay": 2000
+      },
+
+      {
+        "if": {"sensor1": "off"},
+        "then":{"motor1": "off"},
+        "delay": 100
+      }
+    ]
+  }
+  

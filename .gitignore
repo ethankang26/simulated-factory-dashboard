@@ -1,0 +1,18 @@
+# Node modules and build
+node_modules
+.next
+*.log
+dist
+build
+
+# OS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.local
+
+# Frontend lock file (auto-generated)
+frontend/node_modules
+frontend/.next
+frontend/.env*
